@@ -1,0 +1,50 @@
+
+git status
+
+irynachelombitko@Irynas-MacBook-Air New-repository % git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+git branch
+
+irynachelombitko@Irynas-MacBook-Air New-repository % git branch
+* main
+  new_branch
+
+git log
+
+irynachelombitko@Irynas-MacBook-Air New-repository % git log
+commit 92d4175ff99415db12e47787354327188bc23a33 (HEAD -> main)
+Merge: 2aa9dfb 646be85
+Author: Iryna Chelombitko <ang.feofan@gmail.com>
+Date:   Sat Oct 14 14:02:39 2023 +0300
+
+    Вирішено конфлікт
+
+commit 2aa9dfbdbaadbe7b8bd28e31dbba3648ba9b5d3a (origin/main)
+Author: Iryna Chelombitko <ang.feofan@gmail.com>
+Date:   Sat Oct 14 13:58:36 2023 +0300
+
+    Додано 'Hello, World!' до тексту
+
+commit 646be85d8f0fddfd54d5e3c9a64798b4d4a79456 (origin/new_branch, new_branch)
+Author: Iryna Chelombitko <ang.feofan@gmail.com>
+Date:   Sat Oct 14 13:51:44 2023 +0300
+
+    Додано третю зміну тексту
+
+commit db3485e6e517369cd3c7899edc3e95611b711d57
+Author: Iryna Chelombitko <ang.feofan@gmail.com>
+Date:   Sat Oct 14 13:50:20 2023 +0300
+
+    Додано другу зміну тексту
+
+commit 20d66b69abe99043a5704ddddd25fa1af49e97e5
+Author: Iryna Chelombitko <ang.feofan@gmail.com>
+Date:   Sat Oct 14 13:48:02 2023 +0300
+
+
+There is no --merges  option  (press RETURN)
